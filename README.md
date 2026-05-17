@@ -18,21 +18,12 @@
   <hr>
 </div>
 
-<div class="flexilis-auto-scroll-container" style="overflow: hidden; border-radius: 8px; border: 1px solid #7A46F1; box-shadow: 0 4px 20px rgba(122, 70, 241, 0.15); padding: 8px; position: relative;">
-  <div class="flexilis-slider-track" style="display: flex; gap: 16px; width: 200%;">
-    <div style="flex: 0 0 calc(50% - 8px); box-sizing: border-box;">
-      <p align="center" style="margin: 4px 0 8px; font-size: 13px; color: #a3a3a3;">🎬 Swipe or scroll right for Image Preview →</p>
-      <video src="assets/datacoreflexilis.clip.webm" width="100%" controls autoplay loop muted style="border-radius: 6px; display: block;"></video>
-    </div>
-    <div style="flex: 0 0 calc(50% - 8px); box-sizing: border-box;">
-      <p align="center" style="margin: 4px 0 8px; font-size: 13px; color: #a3a3a3;">← 🖼️ Image Preview</p>
-      <img src="assets/datacore_flexilis.webp" width="100%" alt="Screen Preview" style="border-radius: 6px; display: block;">
-    </div>
-  </div>
+<div style="border: 1px solid #7A46F1; border-radius: 8px; box-shadow: 0 4px 20px rgba(122, 70, 241, 0.15); padding: 12px; background: rgba(122, 70, 241, 0.03); margin: 20px 0;">
+  <p align="center" style="margin: 0 0 8px 0; font-size: 13px; font-weight: bold; color: #a3a3a3;">
+    🎬 Live Interactive Video Walkthrough
+  </p>
+  <video src="assets/datacoreflexilis.clip.webm" width="100%" controls autoplay loop muted style="border-radius: 6px; display: block;"></video>
 </div>
-<p align="center" style="margin: 8px 0 0 0; font-size: 12px; color: #888; font-style: italic;">
-  💡 Tip: On desktop, hover to pause the auto-play loop. You can also hold Shift + Scroll or swipe to manually slide!
-</p>
 
 <div align="center">
   <p>
@@ -62,17 +53,3 @@ By utilizing a sterile, zero-dependency in-memory cache, Flexilis manages thousa
 *   **Engineering Standards**: [CONTRIBUTION.md](CONTRIBUTION.md)
 
 BETO.GROUP - create factotums...
-
-<style>
-  @keyframes flexilis-slide-anim {
-    0%, 45% { transform: translateX(0); }
-    50%, 95% { transform: translateX(calc(-50% - 8px)); }
-    100% { transform: translateX(0); }
-  }
-  .flexilis-slider-track {
-    animation: flexilis-slide-anim 22s infinite ease-in-out;
-  }
-  .flexilis-slider-track:hover {
-    animation-play-state: paused;
-  }
-</style>
