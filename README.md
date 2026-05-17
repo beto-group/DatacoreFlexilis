@@ -22,7 +22,7 @@
   <p align="center" style="margin: 0 0 8px 0; font-size: 13px; font-weight: bold; color: #a3a3a3;">
     🎬 Live Interactive Video Walkthrough
   </p>
-  <video src="assets/datacoreflexilis.clip.webm" width="100%" controls autoplay loop muted style="border-radius: 6px; display: block;"></video>
+  <video src="https://raw.githubusercontent.com/beto-group/DatacoreFlexilis/main/assets/datacoreflexilis.clip.webm" width="100%" controls autoplay loop muted style="border-radius: 6px; display: block;"></video>
 </div>
 
 <div align="center">
