@@ -18,12 +18,7 @@
   <hr>
 </div>
 
-<div style="border: 1px solid #7A46F1; border-radius: 8px; box-shadow: 0 4px 20px rgba(122, 70, 241, 0.15); padding: 12px; background: rgba(122, 70, 241, 0.03); margin: 20px 0;">
-  <p align="center" style="margin: 0 0 8px 0; font-size: 13px; font-weight: bold; color: #a3a3a3;">
-    🎬 Live Interactive Walkthrough
-  </p>
-  <img src="https://raw.githubusercontent.com/beto-group/DatacoreFlexilis/main/assets/datacoreflexilis.clip.gif" width="100%" alt="Datacore Flexilis Walkthrough" style="border-radius: 6px; display: block;" />
-</div>
+![Datacore Flexilis Walkthrough](https://raw.githubusercontent.com/beto-group/DatacoreFlexilis/main/assets/datacoreflexilis.clip.gif)
 
 <div align="center">
   <p>
