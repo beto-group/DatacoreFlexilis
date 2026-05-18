@@ -32,8 +32,4 @@ entry_point: DATACORE FLEXILIS.md
 logic: src/DatacoreFlexilis.component.jsx
 ---
 
-# DATACORE FLEXILIS METADATA
-
-This file contains the machine-readable packaging manifest and indexing properties for the **DATACORE FLEXILIS** component. 
-
-By offloading the indexing tags here, the primary entry point `DATACORE FLEXILIS.md` remains dedicated to user-facing custom view settings and interactive configuration.
+This file contains the machine-readable packaging manifest and indexing properties for this component.
